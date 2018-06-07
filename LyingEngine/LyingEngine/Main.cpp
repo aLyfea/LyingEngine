@@ -21,6 +21,9 @@
 
 #define GLM_FORCE_DEPTH_ZERO_TO_ONE
 
+#define TINYOBJLOADER_IMPLEMENTATION
+#include <tiny_obj_loader.h>
+
 const int WIDTH = 800;
 const int HEIGHT = 600;
 
